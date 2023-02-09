@@ -1,0 +1,3 @@
+rootProject.name = 'partior-composite-build'
+includeBuild 'upstream/dapps-message-processor'
+includeBuild 'upstream/gradle-submodule-test'

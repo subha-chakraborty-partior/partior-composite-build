@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/upstream/dapps-message-processor" name="message-processor">
+                <projects>
+                  <project path="$PROJECT_DIR$/upstream/dapps-message-processor" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/upstream/gradle-submodule-test" name="gradle-submodule-test">
+                <projects>
+                  <project path="$PROJECT_DIR$/upstream/gradle-submodule-test" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../gradle/gradle-7.6" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/upstream/dapps-message-processor" />
+            <option value="$PROJECT_DIR$/upstream/gradle-submodule-test" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
