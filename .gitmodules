@@ -1,0 +1,6 @@
+[submodule "upstream/dapps-message-processor"]
+	path = upstream/dapps-message-processor
+	url = git@github.com:partior-quorum/dapps-message-processor.git
+[submodule "upstream/gradle-submodule-test"]
+	path = upstream/gradle-submodule-test
+	url = git@github.com:subha-chakraborty-partior/gradle-submodule-test.git
